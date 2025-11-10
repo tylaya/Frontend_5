@@ -272,6 +272,21 @@ html, body, #root {
   margin: 0 0 16px 0;
 }
 
+.modal-actions .btn {
+  padding: 8px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  /* For regular buttons */
+  background: #ff6b6b;  /* red background */
+  color: white;       /* black text */
+  font-weight: 500;     /* make text slightly bolder */
+}
+
+.modal-actions .btn:hover {
+  background: red;  /* slightly darker red on hover */
+}
+
 .modal-actions {
   display: flex;
   gap: 8px;
@@ -288,7 +303,7 @@ html, body, #root {
 }
 
 .btn.danger {
-  background: #ff6b6b;
+  background: rgb(20, 20, 20);
   color: white;
 }
 
